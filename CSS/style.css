@@ -1,0 +1,331 @@
+:root{
+  --green-color : #198754
+}
+
+html{
+  width: 100%;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.nav-link:hover{
+  color: var(--green-color);
+}
+
+
+/* Home/hero section */
+#home{
+  /* background: linear-gradient(160deg, var(--green-color), #000); */
+  height: 100vh;
+  width: 100%;
+}
+
+.txt-home{
+  padding: 100px;
+  /* padding-left: 100px; */
+
+}
+
+.txt-home h1{
+  color: var(--green-color);
+  font-size: 60px;
+  padding-bottom: 20px
+}
+
+.txt-home h3{
+  font-size: 32px;
+  padding-bottom: 24px;
+  line-height: 50px;
+  width: 100%;
+}
+
+.img-home{
+  padding: 0 0 5rem 0;
+  text-align: center;
+}
+
+
+.button-home{
+  font-size: 18px;
+  font-weight: 500;
+  padding: 8px 10px 8px 10px;
+  color: #fff;
+  border: none;
+  background-color: #198754;
+  border-radius: 5px;
+}
+
+/* About section */
+#About{
+  padding-bottom: 100px;
+  padding-top: 100px;
+}
+
+
+.img-about{
+  border-radius: 10px;
+}
+
+.vegetable{
+  /* padding: 5rem; */
+  /* padding-left: 30px;
+  padding-right: 30px; */
+}
+
+.txt-about{
+  /* padding-top:30px; */
+  width: 420px;
+}
+
+.parap-1{
+  color: var(--green-color);
+  font-weight: 700;
+}
+
+.txt-about h2{
+  font-size: 28px;
+  padding-bottom: 10px;
+  line-height: 45px;
+  /* width: 50%;  */
+  font-weight: 500;
+}
+
+.parap-2{
+  margin-bottom: 30px;
+  width: 400px;
+}
+
+.button-about{
+  font-size: 18px;
+  font-weight: 500;
+  padding: 8px;
+  color: #fff;
+  border: none;
+  background-color: #198754;
+  border-radius: 5px;
+}
+
+/* offering section*/
+
+#offering{
+  padding-top: 80px;
+  padding-bottom: 100px;
+}
+
+p{
+  color: var(--green-color);
+  font-size: 18px;
+}
+
+#offering .parap-second{
+  font-size: 15px;
+  color: rgb(91, 91, 91);
+  width: 100%;
+}
+
+.card-offering{
+  height: 313px;
+  border-radius: 5px;
+  padding: 40px;
+  background-color: #fff;
+  /* box-shadow: 0 0 7px 3px rgba(0, 0, 0, 0.05); */
+  /* transition: all .3s ease-in; */
+}
+
+.card-offering h3{
+  margin-top: 68px;
+}
+
+
+/* Special section*/
+#special{
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.card{
+  width: 100%;
+  border: none;
+  box-shadow: 0 0 7px 5px rgba(0, 0, 0, 0.08);
+}
+.card-img-top{
+  padding: 0 20px 0 20px;
+}
+.harga{
+  padding: 0 16px 0 16px;
+  margin-top: 10px;
+  font-weight: 600;
+}
+.harga p{
+  color: #000;
+}
+.card-body{
+  padding: 0 16px 0 16px;
+  /* margin-top: 20px; */
+}
+.card-body .txt-3{
+  font-weight: 600;
+  color: #000 ;
+}
+.card-text{
+  font-size: 16px;
+}
+.card a{
+  width: 55px;
+  height: 55px;
+  padding-top: 15px;
+}
+.card .btn{
+  border-radius: 10px 0 10px 0;
+}
+#title{
+  color: var(--green-color);
+}
+/* Special section*/
+
+/* App section */
+#app{
+  padding-bottom: 100px;
+
+}
+.img-app{
+  border-radius: 10px;
+}
+
+.phone{
+  padding-top: 5rem;
+}
+
+.txt-app{
+  padding: 5rem 5rem 5rem 10px;
+
+}
+.txt-app .parap-1{
+  color: var(--green-color);
+  font-weight: 700;
+}
+
+.txt-app h2{
+  font-size: 45px;
+  padding-top: 10px;
+  padding-bottom: 25px;
+  line-height: 45px;
+  /* width: 85%; */
+  font-weight: 700;
+}
+
+.txt-app .parap-2{
+  font-size: 18px;
+  margin-bottom: 2rem;
+  width: 500px;
+}
+
+.span-1{
+  font-size: 20px;
+  width: 10px
+}
+
+.playstore{
+  margin-left: 10px;
+}
+
+/* Contact section */
+
+#contact{
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.txt-contact h4{
+  color: var(--green-color);
+  margin-bottom: 35px;
+  font-weight: 700;
+}
+.txt-contact h1{
+  margin-bottom: 40px;
+}
+
+.txt-contact p{
+  font-size: 15px;
+  width: 100%;
+}
+
+.btn-contact{
+  padding-top: 8%;
+}
+
+/* footer section */
+
+footer{
+  padding-top: 100px;
+  padding-bottom: 200px;
+}
+
+.copyright{
+  bottom: 1%;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+}
+
+.tasty{
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 30px;
+  color: var(--green-color);
+  text-decoration: none;
+}
+
+.services{
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 30px;
+  color: rgb(75, 75, 75);
+  text-decoration: none;
+}
+
+.information{
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 30px;
+  color: rgb(75, 75, 75);
+  text-decoration: none;
+}
+
+div .addres{
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 30px;
+  color: rgb(75, 75, 75);
+  text-decoration: none;
+}
+
+div .txt-addres{
+  /* font-size: 16px; */
+  padding-top: 23px;
+  width: 130px;
+  color: rgb(129, 129, 129);
+  line-height: 28px;
+}
+
+.second .main-txt{
+  padding-top: 23px;
+}
+.copyright div p{
+  color: rgb(91, 91, 91);
+}
+/* p{
+  color: rgb(129, 129, 129);
+} */
+
+.icon{
+  padding-top: 3rem;
+}
+
+a{
+  color: #000;
+}
+p{
+  color: rgb(91, 91, 91);
+}

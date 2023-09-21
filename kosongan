@@ -1,0 +1,653 @@
+#about{
+        width: 100vh;
+        height: 100%;
+    }
+    .vegetable{
+        width: 230px;
+        padding: 50px 40px 50px 15px;
+    }
+    .vegetable .img-about{
+        width:200px;
+    }
+    .txt-about{
+        width: 235px;
+        height: 255px;
+        padding-left: 10px;
+    }
+    .txt-about .parap-1{
+        font-size: 14px;
+    }
+    .txt-about h2{
+        font-size: 24px;
+    }
+    .txt-about .parap-2{
+        font-size: 12px;
+        width: 300px;
+        padding-bottom: 0px;
+    }
+    .button-about{
+        font-size: 12px;
+        font-weight: 500;
+        padding: 8px;
+        color: #fff;
+        border: none;
+        background-color: #198754;
+        border-radius: 5px;
+    }
+
+
+
+
+
+
+    .txt-home h1{
+        color: blue;
+    }
+    
+    /* about */
+    .vegetable{
+        padding-left: 25px;
+        width: 500px;
+        padding-bottom: 10px;
+    }
+    .vegetable .img-about{
+        width: 300px;
+    }
+    .txt-about .parap-2{
+        font-size: 14px;
+    }
+    .button-about{
+        font-size: 14px;
+    }
+
+    <div class="col-lg-4 mb-4 d-flex justify-content-evenly ">
+    <div class="card" style="width: 22rem;">
+        <img class="img-1" src="assets/food img/green-tomato.png" alt="" width="312">
+
+        <div class="card-body">
+            <h5>green tomato salad</h5>
+            <p class="mb-5">Delicius dish</p>
+            <h5 class="fw-bold">$12.00</h5>
+        </div>
+
+        <div class="card-fasilitas d-flex justify-content-end bottom-0">
+            <button class="keranjang"><img src="assets/special-menu/shopping-cart.png" alt="" width="20"></button>
+        </div>
+    </div>
+</div>
+
+  <!-- card 2 -->
+  <div class="col-lg-4 mb-4 d-flex justify-content-evenly ">
+    <div class="card" style="width: 22rem;">
+        <img class="img-1" src="assets/food img/food-2.png" alt="" width="312">
+
+        <div class="card-body">
+            <h5>green tomato salad</h5>
+            <p class="mb-5">Delicius dish</p>
+            <h5 class="fw-bold">$12.00</h5>
+        </div>
+
+        <div class="card-fasilitas d-flex justify-content-end bottom-0">
+            <button class="keranjang"><img src="assets/special-menu/shopping-cart.png" alt="" width="20"></button>
+        </div>
+    </div>
+</div>
+
+  <!-- card 3 -->
+  <div class="col-lg-4 mb-4 d-flex justify-content-evenly ">
+    <div class="card" style="width: 22rem;">
+        <img class="img-1" src="assets/food img/green-tomato.png" alt="" width="312">
+
+        <div class="card-body">
+            <h5>green tomato salad</h5>
+            <p class="mb-5">Delicius dish</p>
+            <h5 class="fw-bold">$12.00</h5>
+        </div>
+
+        <div class="card-fasilitas d-flex justify-content-end bottom-0">
+            <button class="keranjang"><img src="assets/special-menu/shopping-cart.png" alt="" width="20"></button>
+        </div>
+    </div>
+
+
+
+    <!-- responesive -->
+    @media screen and (max-width: 922px) {
+        /* home */
+        .txt-home h1{
+            color: red;
+        }
+        .txt-home{
+            padding: 20px 80px 20px 50px;
+        }
+        .txt-home h1{
+            font-size: 40px;
+            padding-bottom: 10px;
+            width: 220px;
+        }
+        .txt-home h3{
+            font-size: 18px;
+            padding-bottom: 10px;
+            width: 200px;
+        }
+        .img-home{
+            padding-top: 0px;
+        }
+        .img-home .home{
+            width: 355px;
+        }
+        .button-home{
+            font-size: 14px;
+            font-weight: 500;
+            padding: 8px 10px 8px 10px;
+            color: #fff;
+            border: none;
+            background-color: #198754;
+            border-radius: 5px;
+          }
+    
+    
+        /* about section */
+        .vegetable{
+            width: 300px;
+            padding: 25px 40px 50px 40px;
+        }
+        .vegetable .img-about{
+            width: 280px;
+        }
+        .txt-about{
+            width: 420px;
+            height: 255px;
+            padding-left: 40px;
+            padding-bottom: 20px;
+        }
+        .txt-about .parap-1{
+            font-size: 16px;
+        }
+        .txt-about h2{
+            font-size: 30px;
+        }
+        .txt-about .parap-2{
+            font-size: 14px;
+            width: 300px;
+            padding-bottom: 0px;
+        }   
+        .button-about{
+            font-size: 16px;
+            font-weight: 500;
+            padding: 8px;
+            color: #fff;
+            border: none;
+            background-color: #198754;
+            border-radius: 5px;
+        }
+    
+        /* offering */
+        .card-offering{
+            padding: 10px 20px 10px 20;
+        }
+    }
+    
+    /* @media screen and (max-width: 768px) {
+        
+    } */
+    
+    @media screen and (max-width: 576px) {
+        /* Home section */
+        .txt-home{
+            width: 100vh;
+            height: 100%;
+        }
+        .txt-home h1{
+            color: aqua;
+        }
+        .txt-home{
+            padding: 20px 100px 20px 10px;
+        }
+        .txt-home h1{
+            font-size: 55px;
+            padding-bottom: 10px;
+            width: 300px;
+        }
+        .txt-home h3{
+            font-size: 24px;
+            padding-bottom: 10px;
+            width: 300px;
+        }
+        .img-home{
+            padding-top: 0px;
+        }
+        .img-home .home{
+            width: 345px;
+        }
+        .button-home{
+            font-size: 18px;
+            font-weight: 500;
+            padding: 8px 10px 8px 10px;
+            color: #fff;
+            border: none;
+            background-color: #198754;
+            border-radius: 5px;
+          }
+    
+    
+        /* about section */
+        .vegetable{
+            width: 200px;
+            padding: 50px 15px 50px 10px;
+        }
+        .vegetable .img-about{
+            width:185px;
+        }
+        .txt-about{
+            width: 275px;
+            height: 255px;
+            padding-left: 20px;
+            padding-right: 0px;
+        }
+        .txt-about .parap-1{
+            font-size: 14px;
+        }
+        .txt-about h2{
+            font-size: 24px;
+        }
+        .txt-about .parap-2{
+            font-size: 12px;
+            width: 300px;
+            padding-bottom: 0px;
+        }
+        .button-about{
+            font-size: 12px;
+            font-weight: 500;
+            padding: 8px;
+            color: #fff;
+            border: none;
+            background-color: #198754;
+            border-radius: 5px;
+        }
+    
+        /* app */
+        .phone{
+            width: 200px;
+            /* padding: 0 0 0 0; */
+            /* height: 100px; */
+            /* padding-left: 0px; */
+            padding-right: 20px;
+        }
+        .phone .img-app{
+            width: 200px;
+        }
+        .txt-app{
+            padding: 0px;
+            padding-left: 0px;
+            width: 310px;
+        }
+        .txt-app h2{
+            font-size: 30px;
+        }
+        .txt-app .parap-2{
+            font-size: 16px;
+            width: 325px;
+        }
+        .application img{
+            width: 140px;
+        }
+    
+    }
+    
+    @media screen and (max-width: 465px) {
+        /* Home */
+        .txt-home h1{
+            color: blue;
+        }
+        .img-home .home{
+            width: 300px;        
+        }
+        
+        
+        /* about */
+        .vegetable{
+            padding-left: 30px;
+            width: 500px;
+            padding-bottom: 10px;
+        }
+        .vegetable .img-about{
+            width: 290px;
+        }
+        .txt-about{
+            padding: 5px 20px 20px 20px;
+            width: 340px;
+        }
+        .txt-about .parap-2{
+            font-size: 14px;
+        }
+        .button-about{
+            font-size: 14px;
+        }
+    
+        /* special */
+        .card .img-1{
+            /* padding: 20px; */
+            /* width: 267px; */
+            padding-right: 20px;
+            padding-left: 0px;
+        }
+        .card h5{
+            font-size: 18px;
+        }
+    
+        /* App */
+        .phone{
+            width: 85px;
+        }
+        .phone .img-app{
+            width: 328px;
+        }
+        .txt-app{
+            width: 335px;
+            padding: 0px;
+            padding-top: 0px;
+            padding-left: 20px;
+            /* padding-bottom: 100px; */
+            margin: 0px;
+        }
+        .txt-app .parap-1{
+            font-size: 16px;
+        }
+        .txt-app h2{
+            font-size: 22px;
+            width: 300px;
+            padding-top: 0px;
+            padding-bottom: 20px;
+        }
+        .txt-app .parap-2{
+            font-size: 14px;
+            width: 300px;
+        }
+        .application img{
+            width: 155px;
+        }
+    
+    }
+
+    <!-- special card -->
+    <!-- <div class="card" style="width: 22rem;">
+                        <div>
+                          <img class="img-1" src="assets/food img/green-tomato.png" alt="" width="312">
+                        </div>
+                        <div class="card-body">
+                            <h5>green tomato salad</h5>
+                            <p class="mb-5">Delicius dish</p>
+                            <h5 class="fw-bold">$22.00</h5>
+                        </div>
+
+                        <div class="card-fasilitas d-flex justify-content-end bottom-0">
+                            <button class="keranjang"><img src="assets/special-menu/shopping-cart.png" alt="" width="20"></button>
+                        </div>
+                    </div> -->
+    <!-- Special Section start -->
+    <section id="rekomendasi">
+        <div class="container h-100">
+            <div class="row w-100">
+                <div class="col-12 text-center mb-5">
+                  <p class="text-success">Special</p>
+                    <h2>Menu of the week</h2>
+                </div>
+  
+                <div class="row mx-1  d-flex justify-content-evently">
+                    <!-- card 1 -->
+                    <div class="col-lg-4 col-md-6 col-sm-4 mb-4 d-flex justify-content-evenly ">
+                      <div class="card" style="width: 22rem;">
+                          <div>
+                            <img class="img-1" src="assets/food img/green-tomato.png" alt="" width="312">
+                          </div>
+                          <div class="card-body">
+                              <h5>green tomato salad</h5>
+                              <p class="mb-5">Delicius dish</p>
+                              <h5 class="fw-bold">$22.00</h5>
+                          </div>
+  
+                          <div class="card-fasilitas d-flex justify-content-end bottom-0">
+                              <button class="keranjang"><img src="assets/special-menu/shopping-cart.png" alt="" width="20"></button>
+                          </div>
+                      </div>
+                  </div>
+  
+                    <!-- card 2 -->
+                    <div class="col-lg-4 col-md-6 col-sm-4 mb-4 d-flex justify-content-evenly ">
+                      <div class="card" style="width: 22rem;">
+                          <img class="img-1" src="assets/food img/food-2.png" alt="" width="312">
+  
+                          <div class="card-body">
+                              <h5>red tomato salad</h5>
+                              <p class="mb-5">Delicius dish</p>
+                              <h5 class="fw-bold">$12.00</h5>
+                          </div>
+  
+                          <div class="card-fasilitas d-flex justify-content-end bottom-0">
+                              <button class="keranjang"><img src="assets/special-menu/shopping-cart.png" alt="" width="20"></button>
+                          </div>
+                      </div>
+                  </div>
+  
+                    <!-- card 3 -->
+                    <div class="col-lg-4 col-md-6 col-sm-4 mb-4 d-flex justify-content-evenly ">
+                      <div class="card" style="width: 22rem;">
+                          <img class="img-1" src="assets/food img/food-3.png" alt="" width="312">
+  
+                          <div class="card-body">
+                              <h5>Poke bawl salad</h5>
+                              <p class="mb-5">Delicius dish</p>
+                              <h5 class="fw-bold">$9.50</h5>
+                          </div>
+  
+                          <div class="card-fasilitas d-flex justify-content-end bottom-0">
+                              <button class="keranjang"><img src="assets/special-menu/shopping-cart.png" alt="" width="20"></button>
+                          </div>
+                      </div>
+                  </div>
+                  </div>
+                </div>
+            </div>
+        </div>
+      </section>
+      <!-- Special Section end -->
+
+      <!-- card 1 -->
+          <div class="par-crd col-lg-4 col-md-6 mt-5">
+            <div class="card m-3" style="width:19rem;">
+              <img src="assets/food img/food.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Green Tomato salad</h5>
+                <p class="card-text">Delicius</p>
+              </div>
+              <div class="card-body z-1 mt-5"><p class="m-0">$22.00</p></div>
+              <div class="d-flex justify-content-end z-0">
+                <a href="#" class="btn btn-success"><img src="assets/special-menu/shopping-cart.png" alt="" width="25"></a>
+              </div>
+            </div>
+          </div>
+           <!-- card 1 -->
+
+          <!-- card 2 -->
+          <div class="par-crd col-lg-4 col-md-6 mt-5">
+            <div class="card m-3" style="width: 19rem;">
+              <img src="assets/food img/food.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Green Tomato salad</h5>
+                <p class="card-text">Delicius</p>
+              </div>
+              <div class="card-body z-1 mt-5"><p class="txt-3 m-0">$9.50</p></div>
+              <div class="d-flex justify-content-end z-0">
+                <a href="#" class="btn btn-success"><img src="assets/special-menu/shopping-cart.png" alt="" width="25"></a>
+              </div>
+            </div>
+          </div>
+           <!-- card 2 -->
+
+          <!-- card 3 -->
+          <div class="col-lg-4 col-md-6 mt-5">
+            <div class="card" style="width: 19rem;">
+              <img src="assets/food img/food.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Green Tomato salad</h5>
+                <p class="card-text text-second">Delicius</p>
+              </div>
+              <div class="card-body z-1 mt-5"><p class="txt-3 m-0">$9.50</p></div>
+              <div class="d-flex justify-content-end z-0">
+                <a href="#" class="btn btn-success"><img src="assets/special-menu/shopping-cart.png" alt="" width="25"></a>
+              </div>
+            </div>
+          </div>
+           <!-- card 3 -->
+
+           @media screen and (min-width: 350px) and (max-width: 576px){
+            .navbar{
+                padding-bottom: 10px;
+            }
+            /* Home */
+            .txt-home{
+                padding: 15px 20px 25px 20px;
+            }
+            .txt-home h1{
+                /* color: red; */
+                font-size: 43px;
+                padding-bottom: 5px;
+        
+            }
+            .txt-home h3{
+                font-size: 18px;
+                line-height: 35px;
+                padding-bottom: 20px;
+            }
+            .img-home{
+                padding-top: 0px;
+            }
+            .img-home .home{
+                width: 300px;
+            }
+            /* Home */
+            /* about start */
+            .vegetable .img-about{
+                width: 285px;
+            }
+            .txt-about{
+                padding: 0 20px 0 20px;
+            }
+            .txt-about h2{
+                font-size: 25px;
+            }
+            .txt-about .parap-1{
+                width: 100px;
+                font-size: 16px;
+                margin-bottom: 10px;
+            }
+            .txt-about .parap-2{
+                font-size: 14px;
+                width: 290px;
+                margin-bottom: 25px;
+            }
+            /* about endt */
+            /* special card start */
+            .card{
+                width: 18rem;
+            }
+            .card .img-1{
+                width: 245px;
+            }
+            .pembungkus-crd{
+                margin-left: 0px;
+            }
+            /* special card start */
+            /* app start */
+            .phone img{
+                width: 328px;
+            }
+            .txt-app{
+                /* margin: 0px; */
+                margin-top: 0px;
+                padding: 0 20px 20px 20px;
+            }
+            .txt-app h2{
+                font-size: 24px;
+                padding: 10px 0 0 0;
+            }
+            .txt-app .parap-1{
+                margin-bottom: 0px;
+            }
+            .txt-app .parap-2{
+                font-size: 16px;
+                width: 300px;
+                margin-bottom: 25px;
+                margin-right: 0px;
+            }
+            .apple a img{
+                width: 150px;        
+            }
+            .playstore a img{
+                width: 150px;        
+            }
+            /* app end */
+            /* contact start */
+            #contact{
+                padding-top: 55px;
+            }
+            .txt-contact{
+                padding: 0 20px 0 20px;
+            }
+            .txt-contact h4{
+                font-size: 18px;
+                margin-bottom: 15px;
+            }
+            .txt-contact h1{
+                font-size: 24px;
+                margin-bottom: 20px;
+            }
+            .txt-contact p{
+                font-size: 16px;
+                width: 300px;
+                margin-bottom: 25px;
+                margin-right: 0px;
+            }
+            /* contact end */
+            /* footer start */
+            .main a{
+                font-size: 24px;
+            }
+            .main p{
+                font-size: 16px;
+            }
+            .icon {
+                padding-top: 25px;
+                padding-bottom: 40px;
+            }
+            .icon a img{
+                width: 28px;
+            }
+            .second .services{
+                font-size: 20px;
+                margin-bottom: 0px;
+            }
+            .second .information{
+                font-size: 20px;
+                margin-top: 20px;
+                margin-bottom: 0px;
+            }
+            .second p{
+                font-size: 15px;
+                margin-bottom: 5px;
+            }
+            .three .addres{
+                font-size: 20px;
+                margin-top: 20px;
+                margin-bottom: 0px;
+            }
+            .three .txt-addres{
+                font-size: 15px;
+            }
+            .copyright div p{
+                width: 240px;
+                font-size: 12px;
+            }
+            /* footer end */
+        }
